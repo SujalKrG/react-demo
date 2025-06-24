@@ -4,6 +4,9 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 import Person from './components/Person'
 import Products from './components/Products'
+import Weather from './components/Weather'
+import UserStatus from './components/UserStatus'
+import Greeeting from './components/Greeeting'
 
 const App = () => {
   return (
@@ -12,6 +15,9 @@ const App = () => {
       <Main />
       <Person name={"Alexander"} age={200} />
       <Products name={"Biscuit"} price={50} />
+      <Weather temp={10} />
+      <UserStatus isAdmin={false} />
+      <Greeeting timeOfDay={"morning"} />
       <Footer />
     </div>
   )
