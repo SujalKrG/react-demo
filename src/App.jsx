@@ -7,6 +7,11 @@ import Products from './components/Products'
 import Weather from './components/Weather'
 import UserStatus from './components/UserStatus'
 import Greeeting from './components/Greeeting'
+import StyledCard from './components/StyledCard'
+import ProfileCard from './components/ProfileCard'
+import IconComponent from './components/IconComponent'
+
+
 
 const App = () => {
   return (
@@ -18,6 +23,9 @@ const App = () => {
       <Weather temp={10} />
       <UserStatus isAdmin={false} />
       <Greeeting timeOfDay={"morning"} />
+      <StyledCard />
+      <ProfileCard />
+      <IconComponent />
       <Footer />
     </div>
   )
