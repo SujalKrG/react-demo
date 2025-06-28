@@ -10,6 +10,7 @@ import Greeeting from './components/Greeeting'
 import StyledCard from './components/StyledCard'
 import ProfileCard from './components/ProfileCard'
 import IconComponent from './components/IconComponent'
+import CounterApp from './components/CounterApp'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
       <StyledCard />
       <ProfileCard />
       <IconComponent />
+      <CounterApp />
       <Footer />
     </div>
   )
