@@ -11,6 +11,7 @@ import StyledCard from './components/StyledCard'
 import ProfileCard from './components/ProfileCard'
 import IconComponent from './components/IconComponent'
 import CounterApp from './components/CounterApp'
+import TimeUpdate from './components/TimeUpdate'
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
       <ProfileCard />
       <IconComponent />
       <CounterApp />
+      <TimeUpdate />
       <Footer />
     </div>
   )
