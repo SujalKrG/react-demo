@@ -12,6 +12,8 @@ import ProfileCard from './components/ProfileCard'
 import IconComponent from './components/IconComponent'
 import CounterApp from './components/CounterApp'
 import TimeUpdate from './components/TimeUpdate'
+import TodoList from './components/TodoList'
+import Profile from './components/Profile'
 
 
 
@@ -30,6 +32,8 @@ const App = () => {
       <IconComponent />
       <CounterApp />
       <TimeUpdate />
+      <TodoList />
+      <Profile />
       <Footer />
     </div>
   )
