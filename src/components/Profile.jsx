@@ -7,12 +7,12 @@ const Profile = () => {
   });
 
   const handleChange = (e) => {
-    const {name, value} = e.target;
+    const { name, value } = e.target;
 
     setProfile((prevProfile) => ({
-        ...prevProfile,
-        [name] : value,
-    }))
+      ...prevProfile,
+      [name]: value,
+    }));
   };
   return (
     <div>
