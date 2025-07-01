@@ -15,6 +15,8 @@ import TimeUpdate from "./components/TimeUpdate";
 import TodoList from "./components/TodoList";
 import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
+import BasicEffect from "./components/BasicEffect";
+import CounterEffect from "./components/CounterEffect";
 
 const App = () => {
   return (
@@ -34,6 +36,8 @@ const App = () => {
       <TodoList />
       <Profile />
       <ShoppingList />
+      <BasicEffect />
+      <CounterEffect />
       <Footer />
     </div>
   );
