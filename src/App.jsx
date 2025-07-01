@@ -17,6 +17,7 @@ import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
 import BasicEffect from "./components/BasicEffect";
 import CounterEffect from "./components/CounterEffect";
+import FetchDataEffect from "./components/FetchDataEffect";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <ShoppingList />
       <BasicEffect />
       <CounterEffect />
+      <FetchDataEffect />
       <Footer />
     </div>
   );
