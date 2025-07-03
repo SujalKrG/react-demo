@@ -21,6 +21,7 @@ import FetchDataEffect from "./components/FetchDataEffect";
 import { UserProvider } from "./components/userContext";
 import UserProfile from "./components/UserProfile";
 import UpdateUser from "./components/UpdateUser";
+import UserReducerCounter from "./components/UserReducerCounter";
 
 const App = () => {
   return (
@@ -47,6 +48,7 @@ const App = () => {
         <UserProfile />
         <UpdateUser />
       </UserProvider>
+      <UserReducerCounter />
       <Footer />
     </div>
   );
