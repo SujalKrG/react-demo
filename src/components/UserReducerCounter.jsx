@@ -19,7 +19,7 @@ const UserReducerCounter = () => {
       case "Decrement":
         return { ...state, count: state.count - 1 };
       case "Reset":
-        return { count: 0 };
+        return { ...state, count: 0 };
 
       default:
         break;

@@ -22,6 +22,8 @@ import { UserProvider } from "./components/userContext";
 import UserProfile from "./components/UserProfile";
 import UpdateUser from "./components/UpdateUser";
 import UserReducerCounter from "./components/UserReducerCounter";
+import FocusInput from "./components/FocusInput";
+import Timer from "./components/Timer";
 
 const App = () => {
   return (
@@ -49,6 +51,8 @@ const App = () => {
         <UpdateUser />
       </UserProvider>
       <UserReducerCounter />
+      <FocusInput />
+      <Timer />
       <Footer />
     </div>
   );
