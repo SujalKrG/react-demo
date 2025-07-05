@@ -24,6 +24,7 @@ import UpdateUser from "./components/UpdateUser";
 import UserReducerCounter from "./components/UserReducerCounter";
 import FocusInput from "./components/FocusInput";
 import Timer from "./components/Timer";
+import FetchUsingCustomHook from "./components/FetchUsingCustomHook";
 
 const App = () => {
   return (
@@ -53,6 +54,7 @@ const App = () => {
       <UserReducerCounter />
       <FocusInput />
       <Timer />
+      <FetchUsingCustomHook />
       <Footer />
     </div>
   );
